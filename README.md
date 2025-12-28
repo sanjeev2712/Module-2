@@ -9,13 +9,15 @@ To write a Python program to convert the number **16** into its **binary represe
 3. Print the result.
 
 ## 🧾 Program
-
-Add Code Here
-
+```
+a=16
+b=bin(a)
+print(b)
+```
 ## Output
-
+![alt text](<../Screenshot 2025-12-28 122948.png>)
 ## Result
-
+This program was executed successfully
 # Functions in Python: Modulo Calculator
 
 ## 🎯 Aim
@@ -29,12 +31,17 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
-
-Add code Here
-
+```
+def result(a,b):
+    print(a%b)
+a=int(input("Enter the first number: "))
+b=int(input("Enter the second number: "))
+result(a,b)
+```
 ## Output
-
+![alt text](<../Screenshot 2025-12-28 123103.png>)
 ## Result
+This program was executed successfully
 
 # 🔺 Looping(Patterns)-Pascal's Triangle Generator in Python
 
@@ -65,11 +72,16 @@ To write a Python program that generates **Pascal's Triangle** using numbers. Th
 ---
 
 ## 🧪 Program
-Add Code Here
-
+```
+a=int(input("Enter the first number: "))
+b=int(input("Enter the second number: "))
+f = lambda a , b : a + b
+print("The sum is : ",f(a,b))
+```
 ## Sample Output
-
+![alt text](<../Screenshot 2025-12-28 123236.png>)
 ## Result
+This program was executed successfully
 
 ## Loops in Python: Palindrome Number Checker
 
@@ -89,8 +101,55 @@ To write a Python program that checks whether a given number is a **palindrome**
    - Else, print that it is not a palindrome.
 
 ## 🧾 Program
-Add code Here
+```
+from math import factorial
+
+n = int(input("Enter the number of rows: "))
+
+for i in range(n):
+    print(' ' * (n - i - 1), end='')
+    for j in range(i + 1):
+        print(factorial(i) // (factorial(j) * factorial(i - j)), end=' ')
+    print()
+```
 ## Output
-
+![alt text](<../Screenshot 2025-12-28 123609.png>)
 ## Result
+This program was executed successfully
 
+## Loops in Python: Palindrome Number Checker
+
+## 🎯 Aim
+To write a Python program that checks whether a given number is a **palindrome** using loops.
+
+## 🧠 Algorithm
+1. Get input from the user and assign it to a variable `num`.
+2. Assign the value of `num` to a temporary variable `temp`.
+3. Initialize a variable `rev` to 0 (used to store the reversed number).
+4. Use a `while` loop to reverse the digits:
+   - While `temp > 0`:
+     - `rev = (10 * rev) + temp % 10`
+     - `temp = temp // 10`
+5. After the loop, compare `rev` with `num`:
+   - If equal, print that the number is a palindrome.
+   - Else, print that it is not a palindrome.
+
+## 🧾 Program
+```
+n = int(input("Enter a number: "))
+temp = n
+rev = 0
+
+while temp > 0:
+    rev = (10 * rev) + temp % 10
+    temp = temp // 10
+
+if rev == n:
+    print(n, "is a palindrome")
+else:
+    print(n, "is not a palindrome")
+```
+## Output
+![alt text](<../Screenshot 2025-12-28 123920.png>)
+## Result
+This program was executed successfully
