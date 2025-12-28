@@ -150,6 +150,6 @@ else:
     print(n, "is not a palindrome")
 ```
 ## Output
-![alt text](<../Screenshot 2025-12-28 123920.png>)
+![alt text](<Screenshot 2025-12-28 123920.png>)
 ## Result
 This program was executed successfully
