@@ -15,7 +15,7 @@ b=bin(a)
 print(b)
 ```
 ## Output
-![alt text](<../Screenshot 2025-12-28 122948.png>)
+![alt text](<Screenshot 2025-12-28 122948.png>)
 ## Result
 This program was executed successfully
 # Functions in Python: Modulo Calculator
@@ -39,7 +39,7 @@ b=int(input("Enter the second number: "))
 result(a,b)
 ```
 ## Output
-![alt text](<../Screenshot 2025-12-28 123103.png>)
+![alt text](<Screenshot 2025-12-28 123103.png>)
 ## Result
 This program was executed successfully
 
@@ -79,7 +79,7 @@ f = lambda a , b : a + b
 print("The sum is : ",f(a,b))
 ```
 ## Sample Output
-![alt text](<../Screenshot 2025-12-28 123236.png>)
+![alt text](<Screenshot 2025-12-28 123236.png>)
 ## Result
 This program was executed successfully
 
@@ -113,7 +113,7 @@ for i in range(n):
     print()
 ```
 ## Output
-![alt text](<../Screenshot 2025-12-28 123609.png>)
+[text](README.md) ![text](<Screenshot 2025-12-28 123609.png>)
 ## Result
 This program was executed successfully
 
